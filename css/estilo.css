@@ -1,0 +1,130 @@
+/****************************************************
+Mudar a cor da palavra BLOG no cabeçalho
+*****************************************************/
+body{
+    background-color: rgb(241, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/****************************************************
+Cabeçaçho do Site
+*****************************************************/
+#topo{
+    border: solid 1px orange;
+    background-color: orange;
+    width: 100%;
+    height: 150px;
+}
+ /****************************************************
+Mudar a cor da palavra BLOG no cabeçalho
+*****************************************************/
+#blog{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+/****************************************************
+Formatar o menu do cabeçalho
+*****************************************************/
+#lista {
+    text-align: center;
+}
+#lista li{
+    color: white;
+    font-weight: 600;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+} 
+#lista a{
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+#lista a:link {
+    color: white;
+}
+#lista a:visited{
+    color: white;
+ }
+#lista a:hover{
+    background-color: white;
+    color: orange;
+}
+/****************************************************
+Navegação
+*****************************************************/
+#navegacao{
+     width: 500px;
+}
+#navegacao h2{
+    margin: 5px 2px 2px 200px;
+    color: orange;
+}
+#navegacao p {
+    margin: 5px 2px 2px 200px;
+}
+#navegacao img{
+    margin: 5px 2px 2px 200px;
+}
+/****************************************************
+Postagem
+*****************************************************/
+#postagem{
+    background-color: white;
+    width: 16%;
+    position: absolute;
+    left: 72%;
+    bottom: 33%;
+    padding: 7px 7px 7px 7px; 
+}
+#postagem h3{
+    background-color: rgb(230, 224, 224);
+}
+#postagem a:link{
+color: orange;
+}
+#postagem a:visited{
+    color: orange;
+}
+#postagem a{
+    text-decoration: none;
+}
+/****************************************************
+Categorias
+*****************************************************/
+#categorias {
+    background-color: white;
+    padding: 7px 7px;
+    width: 16%;
+    position: absolute;
+    left: 72%;
+    bottom: 5%;  
+}
+#categorias h3{
+    background-color: rgb(230, 224, 224);  
+}
+#categorias li{
+    list-style: none;
+}
+#categorias a:link{
+    color: orange;
+}
+#categorias a:visited{
+    color: orange;
+}
+/****************************************************
+Rodapé
+*****************************************************/
+#rodape{
+    background: solid 2px red;
+    width: auto;
+    height: 50px;
+    background-color: rgba(220, 220, 220, 0.767);
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+
+}
